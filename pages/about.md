@@ -18,6 +18,8 @@ This demo collection features items from the University of Idaho Library's [Digi
 
 CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
 
+Venezuela 
+
 - a CSV of collection metadata
 - a folder of images, PDFs, audio, or video files
 
