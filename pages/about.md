@@ -8,28 +8,15 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/image.html objectid="/objects/My_project-1.jpg" width="75" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder CSV;About the About Page" %}
+## About the Venesporan Artists Project
 
-## About CollectionBuilder CSV
+The Venesporan Artists Project (VAP) is an experimental platform that can aid us in discovering artists of the Venezuela diaspora, or what Waleska Solórzano terms the Venespora, by engaging with digital tools and methodologies. The aim of VAP is to bring together Venezuelan artists from all backgrounds, identities, and locations in one (digital) space to delve into diasporic experiences beyond definitions, distinguish patterns, form connections, and ignite conversations across a vast space. This platform also works as an archival work in progress that chronicles contemporary art and artists of Venezuelan descent and identity dispersed across international borders. As an archival platform, VAP focuses on preserving data, such as the personal and official websites, belonging to artists in the Venespora to ensure its availability so that galleries, museums, universities, and related entities can browse and search through artistic content. VAP is open to all who are curious about artists of the Venespora, but it may be particularly useful for those researching and tracking living Venezuelan artists active from 1992 to the present. 
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+Connect with us on social media!
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+{% include feature/button.html text="Venesporan Artists Instagram" link="https://www.instagram.com/venesporanartists/" color="success" %}
 
-Venezuela 
+ 	
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
-
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
-
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
-
-{% include feature/image.html objectid="demo_001" width="75" %} 
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
