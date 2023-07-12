@@ -1,7 +1,7 @@
 # Objects Directory
 
 The CollectionBuilder-CSV template includes this objects folder with demo objects. 
-These can deleted when starting a new project. 
+These can deleted when starting a new project!
 
 Generally, object files should NOT be committed to your GitHub repository (as Git is not designed for binary objects and has GitHub limits the overall size of your repository).
 
